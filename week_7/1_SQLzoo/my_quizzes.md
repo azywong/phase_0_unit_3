@@ -5,7 +5,7 @@
 
 
 ### My Quiz Results:
-![quiz results](/imgs/sqlzoo_quiz.jpg)
+![quiz results](../imgs/sqlzoo_quiz.jpg)
 
 
 
