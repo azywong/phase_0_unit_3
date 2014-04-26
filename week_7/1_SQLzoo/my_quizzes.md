@@ -5,7 +5,7 @@
 
 
 ### My Quiz Results:
-![quiz results](../imgs/sqlzoo_quiz.jpg)
+![quiz results](https://raw.githubusercontent.com/azywong/phase_0_unit_3/master/week_7/imgs/sqlzoo_quiz.jpg)
 
 
 
