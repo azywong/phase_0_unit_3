@@ -4,22 +4,42 @@ $(document).ready(function(){
   //Link this script and the jQuery library to the jquery_example.html file and analyze what this code does. 
  
 $('body').css({'background-color': 'pink'})
+// changes the body background color to pink
  
 //RELEASE 1:
-  //Add code here to select elements of the DOM 
- 
+var bodyElement = $('body')
+var mascotClass = $('.mascot') 
+var img = $('img')
  
 //RELEASE 2: 
-  // Add code here to modify the css and html of DOM elements
- 
+$( "h1" ).css( "color", "brown");
+$( "h1" ).css( "border", "3px solid white");
+$( "h1" ).css( "visibility", "visible");
+
+$( ".mascot h1" ).html( "Fence Lizard");
  
 //RELEASE 3: Event Listener
-  // Add the code for the event listener here 
- 
+
+  $('img').on('mouseover', function(e){
+     e.preventDefault()
+    $(this).attr('src', 'http://www.nps.gov/prsf/naturescience/images/westernfencelizard2.jpg')
+  }) 
+  $( 'img' ).mouseleave(function() {
+    $(this).attr('src', 'dbc_logo.jpg')
+  });
  
 //RELEASE 4 : Experiment on your own
  
- 
+$( "img" ).css( "border", "3px solid brown");
+
+
+ $( "img" ).click(function() {
+  $( "img" ).animate({
+    opacity: 0.25,
+    height: "toggle" 
+  }, 5000, function() {
+  });
+});
  
  
  
