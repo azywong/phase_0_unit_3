@@ -1,20 +1,28 @@
 # U3.W8-9: OO Basics: Student
 
 
-# I worked on this challenge [by myself, with: ].
+# I worked on this challenge [by myself].
 
 # 2. Pseudocode
+=begin
+define Student class
+	initialize
+		arguments:
+	
+	define average
 
-
+=end
 
 # 3. Initial Solution
 
 class Student
   attr_accessor :scores, :first_name
 
-  def initialize(args)   #Use named arguments!
-    #your code here
+  def initialize(scores, first_name)   
+  	@scores = scores
+  	@first_name = first_name
   end
+  
 end
 
 
