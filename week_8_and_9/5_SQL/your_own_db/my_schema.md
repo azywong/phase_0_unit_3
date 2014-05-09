@@ -1,0 +1,1 @@
+![alt text](https://github.com/azywong/phase_0_unit_3/tree/master/week_8_and_9/5_SQL/your_own_db/schema.png)
