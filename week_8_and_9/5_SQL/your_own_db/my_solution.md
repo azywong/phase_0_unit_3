@@ -30,12 +30,17 @@ ON pets.id=humans.pet_id;
 ```
 
 ```
-INSERT INTO pets
-(name, type, age, owner, created_at, updated_at)
-VALUES
-('Bobo', 'bear', 5, 'Allison', DATETIME('now'), DATETIME('now'));
-('Bart', 'bear', 23, 'Justin', DATETIME('now'), DATETIME('now'));
-('Goldie', 'goldfish', 0, 'Jessica', DATETIME('now'), DATETIME('now'));
-('Pompom', 'pomeranian', 1, 'Shirley', DATETIME('now'), DATETIME('now'));
-('Pompom', 'pomeranian', 1, 'Shirley', DATETIME('now'), DATETIME('now'));
+id          name        type        age         owner       created_at           updated_at         
+----------  ----------  ----------  ----------  ----------  -------------------  -------------------
+1           Bobo        bear        5           Allison     2014-05-09 06:12:54  2014-05-09 06:12:54
+2           Bart        bear        23          Justin      2014-05-09 06:13:31  2014-05-09 06:13:31
+3           Goldie      goldfish    0           Jessica     2014-05-09 06:13:42  2014-05-09 06:13:42
+4           Pompom      pomeranian  1           Shirley     2014-05-09 06:13:51  2014-05-09 06:13:51
+5           ajj         n/a         23          Ramona      2014-05-09 06:13:58  2014-05-09 06:13:58
+6           squidoo     squid       1           Allison     2014-05-09 06:14:10  2014-05-09 06:14:10
+7           brownie     bear        10          Ali         2014-05-09 06:14:16  2014-05-09 06:14:16
+8           Tutra       Turtle      15          Alice       2014-05-09 06:14:22  2014-05-09 06:14:22
+9           Tako        Octopus     6           Justin      2014-05-09 06:14:29  2014-05-09 06:14:29
+10          pandie      Panda       9           Allison     2014-05-09 06:14:34  2014-05-09 06:14:34
 ```
+
